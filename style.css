@@ -1,0 +1,30 @@
+.bgColor{
+    background-color: green;
+    border: 1px solid black;
+    /* height: 100px; */
+}
+.outerBox{
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: green;
+    /* height: 100px; */
+}
+.half-col-design{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+#yourBox, #dealerBox {
+    flex: 1;
+    border: 1px solid black;
+    height: 300px;
+    color: white;
+}
+.blackBorder, table, th, td{
+    border: 1px solid black;
+}
+#yourBox img, #dealerBox img{
+    height: 45%;
+}
